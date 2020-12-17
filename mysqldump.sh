@@ -1,0 +1,1 @@
+docker exec mysql /usr/bin/mysqldump -u root --password=root drupal > .docker/mysql/dump/drupal.sql
